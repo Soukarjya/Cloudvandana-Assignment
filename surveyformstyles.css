@@ -1,0 +1,26 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #333;
+    z-index: 1;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #6db193;
+}
+.forms{
+    background-color: white;
+    padding: 30px;
+}
+#submit{
+    background-color: #00bbf0;
+}
